@@ -17,7 +17,7 @@ This can be done with scripts/WriteEemsCoordFile.py
 python WriteEemsCoordFile.py
 ```
 
-# 3. fix bim file so doesn't have non standard chromosomes
+## 3. fix bim file so doesn't have non standard chromosomes
 ```
 awk '{print 1,$2,$3,$4,$5,$6}' datapath.bim  > newdatapath.bim
 ```
