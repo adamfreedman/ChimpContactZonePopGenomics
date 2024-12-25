@@ -1,2 +1,2 @@
 # ADMIXTURE
-This directory contains code for conducting ancestry analyses with the program ADMIXTURE on genotypes derived from a capture array for 85 wild chimpanzees in Cameroon.
+This directory contains code for conducting ancestry analyses with the program ADMIXTURE (v. 1.3.0) on genotypes derived from a capture array for 85 wild chimpanzees in Cameroon. Prior to running the program, we filtered out singleton sites in the vcf file using *vcftools* (v. 0.1.16). An example SLURM sbatch script for executing 100 replicates at a given level of K is found in the scripts directory.
