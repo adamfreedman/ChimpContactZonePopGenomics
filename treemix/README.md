@@ -57,7 +57,7 @@ This returns trees from chosen number of independent runs with optimum number of
 
 For this step you will need to have saved the file `TreeMix_functions.R` . Then, set working directory to the *final_runs* folder, run steps B and C from the `Step2&4_TreeMix.R` script. From the final runs, compares tree likelihoods, plots ML tree with bootstrap values and migration weights, as well as drift and residuals.
 
-References
+## References
 Milanesi, M., Capomaccio, S., Vajana, E., Bomba, L., Garcia, J.F., Ajmone-Marsan, P., Colli, L., 2017. BITE: an R package for biodiversity analyses. bioRxiv 181610. doi:10.1101/181610
 
 Pickrell, J., & Pritchard, J. (2012). Inference of population splits and mixtures from genome-wide allele frequency data. Nature Precedings, 1-1.
